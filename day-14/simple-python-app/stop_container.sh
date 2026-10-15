@@ -1,5 +1,6 @@
 #!/bin/bash
-set -e
-
-# Stop the running container (if any)
-echo "Hi"
+echo "Stopping existing container..."
+CONTAINER_ID=$(sudo docker ps -q)
+if [ -n "$CONTAINER_ID" ]; then
+    sudo docker rm -f $CONTAINER_ID
+fi

@@ -1,8 +1,6 @@
 #!/bin/bash
-set -e
+echo "Pulling latest image..."
+sudo docker pull abhishekf5/simple-python-app:latest
 
-# Pull the Docker image from Docker Hub
-echo
-
-# Run the Docker image as a container
-echo
+echo "Starting new container..."
+sudo docker run -d -p 5000:5000 abhishekf5/simple-python-app:latest

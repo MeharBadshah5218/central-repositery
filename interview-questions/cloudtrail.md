@@ -57,3 +57,8 @@ You can use Amazon SNS (Simple Notification Service) to receive notifications ab
 
 ### 20. How can you use CloudTrail logs for incident response?
 CloudTrail logs can be used for incident response by analyzing events to identify the cause of an incident, understand its scope, and take appropriate actions.
+
+### 21 Git branch , Github branch mn kya frk ha ?
+- git mn hm branch bnaty hn or master branch ka data chlid branch mn b coppy ho jata ha .ya sara kam hn command sy krty hn . 
+-  github mn b hm branch bnaty hn or master branch ka sara data child branch mn coppy ho jata ha lakin is mn ya fark ha k hm 1 hi click mn sara kam kr lyty hn . ku k github **GUI** ha or git **CLI** ha . 
+-  jysy git mn master branch k sath child branch ko merg  krty hn vysy hi hn github mn master branch k sath child branch ko merg kr skty hn .
